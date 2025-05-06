@@ -12,7 +12,7 @@
 ## Strategie d'execution Powershell 
 > Au lancement du script, vous pouvez obtenir un message d'avertissement concernant une modification de la stratégie d'execution Windows.
 <p align="center">
-  <img alt="Restriction Windows Powershell" src="" width="1000" />
+  <img alt="Restriction Windows Powershell" src="https://raw.githubusercontent.com/schatel-dev/Structure-VSCode-SASS/refs/heads/main/Restriction_Powershell.PNG" width="1000" />
 </p>  
 
 ## Importation dans VSCode  
@@ -20,7 +20,7 @@
 > Définissez si vous souhaitez faire confiance au dossier de votre projet ou votre dossier Desktop.
 
 <p align="center">
-  <img alt="Warning VSCode" src="" width="700" />
+  <img alt="Warning VSCode" src="https://raw.githubusercontent.com/schatel-dev/Structure-VSCode-SASS/refs/heads/main/Warning_VSCode.PNG" width="700" />
 </p>  
 
 ## Compilation avec SASS  
@@ -41,7 +41,7 @@ npm install -g sass
 sass styles.scss styles.css 
 ```
 <p align="center">
-  <img alt="Compilation en SASS" src="https://raw.githubusercontent.com/Dev-IT-Seb/Structure-VSCode-SASS/refs/heads/main/Compilation_SASS.png" width="1000" />
+  <img alt="Compilation en SASS" src="https://raw.githubusercontent.com/schatel-dev/Structure-VSCode-SASS/refs/heads/main/Compilation_SASS.png" width="1000" />
 </p>
 
 ## Author
