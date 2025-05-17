@@ -9,35 +9,29 @@
 
 ## 🎯 Description
 
-🇫🇷 Ce script PowerShell vous permet de créer automatiquement une **structure de fichiers et dossiers propre** pour vos projets web utilisant **SASS**.  
-Il inclut une organisation modulaire (`@use`) dans les fichiers clés : `main.scss`, `styles.scss`, `layout`, `pages`, etc.  
-Une fois la structure générée, vous pouvez importer le projet dans **VSCode** et le compiler avec **SASS**.  
-> Bien sûr, le script est **modifiable** pour s'adapter à votre propre environnement.
+🇫🇷 Ce script PowerShell vous permet de créer automatiquement une **structure de fichiers/dossiers** pour vos projets web utilisant **SASS**.  
+Il inclut l'organisation avec `@use` dans les fichiers principaux (`main.scss`, `styles.scss`, `layout`, `pages`...).
 
-🇬🇧 This PowerShell script auto-generates a clean **folder structure** for your web projects using **SASS**.  
-It includes base `@use` directives in key SCSS files (`main.scss`, `styles.scss`, layout, pages, etc.).  
-After generation, you can import the project into **VSCode** and compile it using **SASS**.  
-> The script is **customizable** for your specific setup.
+> Une fois la structure créée, vous pourrez importer votre dossier dans **VSCode** et compiler avec **SASS**.  
+> Le script est personnalisable pour s’adapter à votre environnement.
 
----
+🇬🇧 This PowerShell script generates a clean **folder structure** for your SASS-based web projects.  
+It includes `@use` structure in key files like `main.scss`, `styles.scss`, `layout`, `pages`...
 
-## ⚙️ Prérequis | Requirements
-
-- ✅ VSCode installé  
-- ✅ Node.js installé (pour utiliser `sass` via npm)  
-- ✅ Powershell autorisé à exécuter des scripts
+> Once generated, you can import the folder into **VSCode** and compile with **SASS**.  
+> The script can be customized for your workflow.
 
 ---
 
-## 💡 Exécution du script
+## ⚙️ Stratégie d'exécution PowerShell
 
-> Lors de la première exécution, Windows peut afficher un **avertissement sur la stratégie d'exécution** :
+> Lors du lancement du script, Windows peut afficher un **message d'avertissement** sur la stratégie d'exécution PowerShell :
 
 <p align="center">
   <img alt="Restriction Windows Powershell" src="https://raw.githubusercontent.com/schatel-dev/Structure-VSCode-SASS/refs/heads/main/Restriction_Powershell.PNG" width="1000" />
 </p>
 
-🔓 Vous pouvez temporairement autoriser les scripts PowerShell avec :
+💡 Pour contourner ce message temporairement :
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
