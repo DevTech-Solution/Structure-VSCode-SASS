@@ -91,7 +91,7 @@ sass styles.scss styles.css
 ## 👤 Author / Auteur
 
 **Sebastien C.**  
-🔗 GitHub : [@Dev-IT-Seb](https://github.com/Dev-IT-Seb)
+🔗 GitHub : [@DevTech-Solutions](https://github.com/DevTech-Solution)
 
 ---
 
